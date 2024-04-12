@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GGUIKit_Example' do
+  pod 'GGUIKit', :path => '../'
+
+  target 'GGUIKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
