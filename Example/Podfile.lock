@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GGUIKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GGUIKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GGUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GGUIKit: 02dce9e8005117a43c72e0a3cb0e37b36a82321a
+
+PODFILE CHECKSUM: e77ee5eaaed9f54e70c4f1b711bd2e0978517f12
+
+COCOAPODS: 1.11.3

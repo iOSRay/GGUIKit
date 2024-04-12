@@ -1,0 +1,6 @@
+framework module GGUIKit {
+  umbrella header "GGUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

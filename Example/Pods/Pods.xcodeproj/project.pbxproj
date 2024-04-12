@@ -1,0 +1,1659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003F0AE2CD25A18DF8A9ACF2BF90F86E /* UIButton+ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E376044D8EE7D123F4EFDA376D9BAA /* UIButton+ActivityIndicatorView.m */; };
+		00CAB34FDAA4EC403956566BE73B0A85 /* UIViewController+Create.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6D580B793C4102E75C269F30B1477F /* UIViewController+Create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		033DF1406466FEB73ABADE16AF8658F0 /* GGUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4305B28EA6DC683D0FEDC1C826EF7D3B /* GGUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03ED89630B668DC01D680B2AB88099DC /* UIStoryboard+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D495EA6DCD140C00E79DBDE7769CA0 /* UIStoryboard+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C93ED509BF6B628B71EEB50B8855944 /* GGDeviceIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CB7A65841BD4E93812781FA07406DB /* GGDeviceIdentifier.m */; };
+		0CF00035521E5EFCD6EEAFF4588E2877 /* UITableView+GGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB452AFA8602CF7877FD1DAAA141D4 /* UITableView+GGAdd.m */; };
+		0D12CE452165156E5A4706034995CC3C /* GGStickyHeaderFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B4575541B6B70D6F6ECF5340BFF19BAA /* GGStickyHeaderFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		122D297718A1283D08B47BC1BE257FA4 /* UITableViewCell+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C55622C96C3893765A20C69BC92FB /* UITableViewCell+Utils.m */; };
+		14517A74E54941E578979EB71F442A13 /* UIView+GGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A43CE2F90E662D6925D26634E599F224 /* UIView+GGProgressHUD.m */; };
+		1658F074558E6C5345F3A35F4B2DD7A0 /* GGStringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 704E16CE016BB68EF0070019740E9B66 /* GGStringTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17B4FD90131496BA71D41AF2920DE4D5 /* UITableViewCell+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1A920F43459106760BC0CEAC6C9840 /* UITableViewCell+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F84B620EEC0456E3CF3C1AFF82B856 /* GGDeviceIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 17510BF9380EC4A2A5036691841AE1C3 /* GGDeviceIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A563CCEB269B4D70A3A221881BAC7AB /* YYCache+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 837B3D1AEC60F447C3220A26849361A6 /* YYCache+Addition.m */; };
+		1BE98943D8DAF1595593AC2B84D0AFD0 /* GGCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA027D45541E142EB8CD61547FBEDE4 /* GGCountdownButton.m */; };
+		1CB89C92F40BAEDE8B0A19DE9E77F3EA /* Pods-GGUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D9B133D06C8E2B74EB9DAEC33F5BC8 /* Pods-GGUIKit_Tests-dummy.m */; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2115B61A02E79FCA826E2AC4D185BE47 /* YYCache+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CDF0D590ACA28EC7D95DC15C087B35 /* YYCache+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F44A32EA4543D97191DE9DACCB3CC7 /* UIView+GGSetViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEE2FCB1D9CB5C2B5978A6A74139198 /* UIView+GGSetViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24BBC11129DF33357A86A1643770E7E2 /* GGSizeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 15079F6E5D21574BDD16FC095D6633C3 /* GGSizeTool.m */; };
+		289EE7874D98D141C6B0D93A1EF6DF8D /* GGLayoutButton.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD66B79D376C5CFF47B4C9D813947B8 /* GGLayoutButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		2F61197F875CA0745B5BC785CBD2A918 /* UIStoryboard+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 354B267364C011360432C1BBC0EF4ECD /* UIStoryboard+Addition.m */; };
+		2F61DB690926ECA7C2CD10BB764DD5C0 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E332D34331A3FD5B76BEABCE944CB7E /* UIView+Utils.m */; };
+		30354B8A0262DE8C8E3EDFE9F12E6345 /* UIButton+ActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 201EB854F1B555B930F6B9A782360251 /* UIButton+ActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		3248A00FEA115556FBF89185B5A6D3BA /* NSString+RemoveEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B77B1F69E4EC5BA40952B197FC328 /* NSString+RemoveEmoji.m */; };
+		336A1CEECE92554D56F96839367C9F0D /* Pods-GGUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D6A0730BC43A0D5F721AC1BBA354BE /* Pods-GGUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35FE4075976EDF8FCE06C5813EF93720 /* UIAlertView+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A47CCD3D011450D0C31E369FC91C64B9 /* UIAlertView+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		387CF8D5B4DBD75A83EE0F0E720DA2F4 /* UIDevice+GGAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D42BD949055FDFFA4499CB61CFA566 /* UIDevice+GGAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BCEC29BBD15C9C26AA05A23E6B8BC55 /* UIViewController+GGTool.h in Headers */ = {isa = PBXBuildFile; fileRef = ABEFF4169EE99A1DF18FB34586A24CD1 /* UIViewController+GGTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C16A46B8843ED9DB817D6C6E39C522F /* GGNumberTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B24EC7F44A52898F12B7744E30F204DA /* GGNumberTool.m */; };
+		3E41D857E6A582ACA6CCAB20B8857C19 /* NSBundle+AllBundles.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D5D1F3E5CC3D140072279B41DDCAA /* NSBundle+AllBundles.m */; };
+		3EF38B27735760B8D04CD0A750BB06EB /* GGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3902485D3AEC4BC881AD1CDE1A5D7A27 /* GGUtil.m */; };
+		45B906A073CBEEEF4C3A85367D521ADA /* GGNumberTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D98A33D92F905003A9DD1EEBA233D0D1 /* GGNumberTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBFA191D90278CD6052AA8E79132AFA /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465CA2A21AB2D7DA85BFBF34523FCB6 /* UIAlertView+Blocks.m */; };
+		4D0B7822564AD1A53C53D3250508DDE1 /* BottomSafeAreaHeightConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 610A4FD966F092B66BE780B7A168C6CD /* BottomSafeAreaHeightConstraint.m */; };
+		4D566F0543E59AE99E48A94B06228963 /* GGDatePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE31937DCC7B4E4F58A22A4F52E773 /* GGDatePickerHelper.m */; };
+		526A26F06B48BF4878B61E2E02B20E60 /* UITextView+TextLengthLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5733E46F7ECF3BE2C667A93F5527A1F3 /* UITextView+TextLengthLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537C9E2B34DDB911A8180554B65E6993 /* NSBundle+AllBundles.h in Headers */ = {isa = PBXBuildFile; fileRef = C29C7A5571C247DBD2B64B94AD404E22 /* NSBundle+AllBundles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54CBFC5283382525EE9EE1270E03800E /* UIView+GGSetViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8985081F154EE0894A228DD5A6A0C192 /* UIView+GGSetViewModel.m */; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		577D4C635F68A02C79CFAB4526F18941 /* UIView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A9894F975F1858627C4AF1FD6396D9 /* UIView+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		5DC1142086270F8C9DE457EECA986F25 /* UIViewController+GGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8EA95A2B483F4B6E2D9B18A3CB6DB /* UIViewController+GGTool.m */; };
+		5DF8B7E77EC16E4AB4E7759B8F3FFE7C /* GGMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8711227F7DD7AC62C49E63DB49E81FE5 /* GGMapHelper.m */; };
+		5FA5883A02E0213482A03CAED9C7C379 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BD5332FB98404AB1BA545E29FC58A /* UIColor+Addition.m */; };
+		617B51B5342FAED7B978CDA17C4BA2F1 /* GGViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF49F703182CF3EDE1AC59EB6BAB3C8 /* GGViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62B0AF6023E7C32FCC5CB084886C7698 /* GGTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7E900BEC820CF5C41E97F03C5089A4 /* GGTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		651ED435147092C793996D733405E25D /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32F42B06CE15D7BFCE858C100C4D76 /* NSString+Addition.m */; };
+		65EC8FCE381DA9F77EEDFD9C9221FC16 /* GGImagePickerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 71FB0B4E8477C9A86C17FFAE59BD0BCD /* GGImagePickerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6898A57A3DE2B7AA337BA125C78459D7 /* GGMapHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A72FBF275448A4BA53B16ED9AD619B /* GGMapHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BD89EA051587B7058F5A2A242CCBF3E /* GGTapLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D15DEE7FAC41D52F70175098172F5D8A /* GGTapLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D68BB545B38E354EEF7C34A2EC1C235 /* UITextView+TextLengthLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = E319D6D7EAE24291EF410DD19E7EF2E8 /* UITextView+TextLengthLimit.m */; };
+		6EEB3B74366F3C6D42C5B89249F75A3F /* UIImage+GGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D214C6C6812030DE4D58E8892D90F086 /* UIImage+GGTool.m */; };
+		707577B58FB423E07DD0D8AD1E94F049 /* BottomSafeAreaHeightConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 90613846F7CDB8BA21E5348C6E836F07 /* BottomSafeAreaHeightConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B168FC95041234660143D4468AD2CA /* UICollectionViewCell+GGNib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF0F7B120E7F30924A6C0FE1C2E9F0A /* UICollectionViewCell+GGNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72FEC8EC692684768332E1C39EFD7039 /* UICollectionViewCell+GGNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B972C6B04232A17FA5857E3F2B5DEA /* UICollectionViewCell+GGNib.m */; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		771B1791B9F922C1B8429B5F841593A7 /* GGLayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B6913803281BEA8005BEA78A8212F3 /* GGLayoutButton.m */; };
+		7745F0C073C35DF4E73AC488541E2ACA /* GGGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C6CD711B42C5C7725FBBCBCEE7F666 /* GGGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E7B9A3A0B9FE0052E73443377F3438 /* UIImageView+GGWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DDE072F5A404F999338AD02864DBD4 /* UIImageView+GGWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		791DB89B622982B5CA6062416B37E149 /* GGUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FE47853F0EC1AB6AE25D602D8234C9 /* GGUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F7E4AEA7D9B7000DC7586FF41AA1B8 /* NSString+RemoveEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C99EBBB7F42F293786D5BDF3198F35 /* NSString+RemoveEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6F61E950DF175B0D05CF033CBDC984 /* UIView+LayoutConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9518528DAC54BDF08A428573607E94 /* UIView+LayoutConstraintHelper.m */; };
+		7B9335C9475428080C78798268C64055 /* GGUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40E754B8495D98E3C229FE567070DC /* GGUIKit-dummy.m */; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		7C9DBBA8A4B26791796C588EB58308FE /* Pods-GGUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AA8BA7DFBA2919A0F260D8501B405C /* Pods-GGUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CAB6B42A782467047EB86440B87B911 /* UIView+GGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 41C72217C92518BFFA9DCD8693D21EEC /* UIView+GGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B6DC3FEBF17106534F81C39B9C18E3 /* UIView+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 0070828D35302355FE7009E36706A63D /* UIView+Create.m */; };
+		82D366EC55C2D33A6C33E5E30B3C9CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		82E5F5FB0DF79F866EF24F6D9779FE5E /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6216F24763D7CD6A14C883342741A /* UIActionSheet+Blocks.m */; };
+		842088F5C8E3C3068061C2A0BAA3F732 /* GGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6E4483FC2B4892BDCEB17B1BB0FC50 /* GGUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8601F42EA205E5EC113542D44B921126 /* GGCenterCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A08D4E226B9938CDF470A85FAC4F68AE /* GGCenterCollectionViewFlowLayout.m */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C4DBD701AB7155B5473DA0811E035BF /* UIImageView+GGWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE038787694F56B3EB91C63D85CEE1 /* UIImageView+GGWebCache.m */; };
+		8E4CA482D87B1DA2579689E6F1F8A2BB /* GGTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF48529F67493D19021C1327790F40 /* GGTapLabel.m */; };
+		92259945724EAA7FB8A906C804D0019D /* GGTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F6973EC7B130B82443FD6D228BCBAA /* GGTableViewModel.m */; };
+		944B7453D7AACF8F8432A3A6E85B1A74 /* UILabel+FormattedText.m in Sources */ = {isa = PBXBuildFile; fileRef = A78629FE0B35BA25BF317A98E0E9921A /* UILabel+FormattedText.m */; };
+		9C2E3AFE49C5D4F438B685D7D3F7097F /* UIColor+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = BA411C6A32EAEA2EB6F46D30F6B6B2DD /* UIColor+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		9D85BD9BC517B3BB0948074E0C3BC1D3 /* YYFPSLabel+Initial.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CA42078DCF2F9F823D72BE531F714A /* YYFPSLabel+Initial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A428D7761977F3577AF43F966957CBCB /* GGUISetting.m in Sources */ = {isa = PBXBuildFile; fileRef = D68C7C2A2576F2E8CF4722220D8CB887 /* GGUISetting.m */; };
+		A9277BC0AF78AAA7AA80ED9821433334 /* GGCenterCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 309B10636BCD3DF7ECC23A37F74F68FC /* GGCenterCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93D47301A38F390A72F406979B32D32 /* UIView+Create.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C79CFB836EC9D3A1D988D95BF8E9386 /* UIView+Create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E15A332C09BBA31031EA137F2EAE71 /* GGSavePhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0898C2F0FFFE70B490479075AF73C9FD /* GGSavePhotoTool.m */; };
+		AC28B5866AE079847A0C77328453957D /* UITextField+TextLengthLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBA9D5367A3C1D9BD7D5A940F4B055 /* UITextField+TextLengthLimit.m */; };
+		B158620EF1C4D836BD0853630078686E /* GGCountdownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6AFCA6492A001B4A944325D7E45894 /* GGCountdownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		B99677356ACE207D594303E347EBADC7 /* NSString+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3798E15633381E8932668E8C2E9882 /* NSString+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4D1D7F2EDF5F3D8E6E8B31292C7F11 /* YYFPSLabel+Initial.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CF8E73BDD0136DE5FD6B889B875811 /* YYFPSLabel+Initial.m */; };
+		BB0B1EA30433A4DF3F5BC9A3E5BBD3F7 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E53C7C1F378179338A4B5B92B467E9 /* UICollectionViewLeftAlignedLayout.m */; };
+		C20A3D40D92DC5E30DEF1CDFEE29A934 /* UIActionSheet+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8DE7A6A20AF29476950FCAB22EC736 /* UIActionSheet+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		C40068EA5BEA0FA4C4D1687F853C10C5 /* NavHeightConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6CCE582870E2AF6000B39C0861F6B6 /* NavHeightConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8080E8A7A17B5F86A1F1564F1D0E39C /* UIViewController+GGNavItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CDF2BE6883AA466DA1434ADF8F4401 /* UIViewController+GGNavItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C98C91272450894E9995D02A0F45A4A8 /* UITableView+GGAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF58BE26A8C04CF69A81AB55A1D8364 /* UITableView+GGAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		CA87BE43F99EED2E4731DE6996F59BC7 /* YYFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE13A2753529CB82BBE722CC5D6F142 /* YYFPSLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5061F5DDDCB91A669573977A0E03D1 /* GGSizeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EB9477E6B598BC2D3717EFD85BA21A /* GGSizeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC343923C2BBDE7B0101A7345F309D2 /* UICollectionReusableView+GGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DA7EA43AD174C061B6C9810D4C47C /* UICollectionReusableView+GGUtils.m */; };
+		CD5770E561752A8D5D66881A54EDB611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		CDA3066C36DD2EBE07CDB6D8E10839ED /* GGViewModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B672EC9676917E7C45993CF8642956F /* GGViewModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD8E8E8487D739076C8BD8107BFCD26 /* GGDatePickerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B50859B9694750122949E724090307A7 /* GGDatePickerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF6C7D2D56513099E849F427ED65E196 /* GGUISetting.h in Headers */ = {isa = PBXBuildFile; fileRef = AF30439CA86222D058C4501A16265EAB /* GGUISetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D392D1DF912DCA72A81FD59ACBFA1A30 /* UILabel+FormattedText.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC975E3C56FD4D563151C638CA74C36 /* UILabel+FormattedText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D594ED477C0041E0E10E5CAB4547FBEB /* Pods-GGUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB087333E61B5C903C9E023F14E9C4 /* Pods-GGUIKit_Example-dummy.m */; };
+		D76D5B7E49505DF66CF2DFEB552BB334 /* UICollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A86EC28F2EC5E435A61A1E66DEA5C83F /* UICollectionViewLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB6C58CAF569654DFF82367F39DEE2DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		DCDC83E9B9E4362F2DBC1594B5F0CC4B /* UIViewController+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 224941FA6BE6CCB6B4B9F3B773E49704 /* UIViewController+Create.m */; };
+		E379976A6403DF7F5370C524B9C59D57 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA052CEF7E94310BABA0464D26E54132 /* YYFPSLabel.m */; };
+		E4116F39184B5FBB147503CC5E8F9A77 /* NavHeightConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CF9C30CCBCA915DA83D496AE127A6 /* NavHeightConstraint.m */; };
+		E43797D222F858F5C80E48570262CC6D /* GGStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B0258D677B56AC35C02B8A3A55364813 /* GGStringTool.m */; };
+		E4E16BDB40E667B8900ADF34FEC661E5 /* UICollectionReusableView+GGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 524FE97765CD66B118FED126EED2866F /* UICollectionReusableView+GGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA16BABE1E5C4D22B7B82A461D22EE1A /* GGStickyHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4AB41E88A9F7C317BB357A9477C3E /* GGStickyHeaderFlowLayout.m */; };
+		EC1E66F34069888747D531365C7A2034 /* UIViewController+GGNavItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB425133A8EA054918A7661E95927F7E /* UIViewController+GGNavItem.m */; };
+		F1A9FCA048DA8EDA85A8598212F0BA61 /* UIView+LayoutConstraintHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CEE0F146FDC35AD9F40B7353162056 /* UIView+LayoutConstraintHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2CA0050F04F8ECE53F973E7EB7B8BFC /* GGSavePhotoTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B57D5DC3834E3BA37B99D299D2C06F /* GGSavePhotoTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A9A009167570E3CA462B50EC63B822 /* UITextField+TextLengthLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E8300AF868836C67C274778C14EABE /* UITextField+TextLengthLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3D68933C3E443DD60CF39A8CFA28307 /* UIDevice+GGAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 928C96E5F82A2C55E23B514FDBFA6E0F /* UIDevice+GGAddition.m */; };
+		F3D7501B4733967072893C1C56490DFF /* GGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C27524EBC3312D2EF3B180F787BFBF87 /* GGViewModel.m */; };
+		F5CCD8A6B526A263CBD814673B068CCA /* GGImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9488EA485A8C8F74B4E9225ECFD5E8C4 /* GGImagePickerHelper.m */; };
+		F86CEB7D96A4E5ECA2F56ED827754E21 /* UIImage+GGTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C8C6B5B9BEDFD4A7E8290D6BF7917B /* UIImage+GGTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04315B65CBFAA0285E0EC1F0C854F21C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DEE251E16A43C6DD5A3FC368DAD7C56;
+			remoteInfo = GGUIKit;
+		};
+		3632A693A0E8D22E065136C437871F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		BFCC9411B817BC576628E928FA66B669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E46ABE1F32E875174282541D80E14D5A;
+			remoteInfo = "Pods-GGUIKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0070828D35302355FE7009E36706A63D /* UIView+Create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Create.m"; sourceTree = "<group>"; };
+		0831FC2AB402DC2BFF57AE6D5EBEFD2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0898C2F0FFFE70B490479075AF73C9FD /* GGSavePhotoTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGSavePhotoTool.m; sourceTree = "<group>"; };
+		0AEE2FCB1D9CB5C2B5978A6A74139198 /* UIView+GGSetViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GGSetViewModel.h"; sourceTree = "<group>"; };
+		0C79CFB836EC9D3A1D988D95BF8E9386 /* UIView+Create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Create.h"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		109E2F557F29CDEDF9370C1DA63A84EE /* Pods-GGUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		15079F6E5D21574BDD16FC095D6633C3 /* GGSizeTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGSizeTool.m; sourceTree = "<group>"; };
+		17510BF9380EC4A2A5036691841AE1C3 /* GGDeviceIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGDeviceIdentifier.h; sourceTree = "<group>"; };
+		183C55622C96C3893765A20C69BC92FB /* UITableViewCell+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Utils.m"; sourceTree = "<group>"; };
+		19B57D5DC3834E3BA37B99D299D2C06F /* GGSavePhotoTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGSavePhotoTool.h; sourceTree = "<group>"; };
+		1AAB452AFA8602CF7877FD1DAAA141D4 /* UITableView+GGAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GGAdd.m"; sourceTree = "<group>"; };
+		1AC975E3C56FD4D563151C638CA74C36 /* UILabel+FormattedText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+FormattedText.h"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1D7E900BEC820CF5C41E97F03C5089A4 /* GGTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGTableViewModel.h; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1DF58BE26A8C04CF69A81AB55A1D8364 /* UITableView+GGAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+GGAdd.h"; sourceTree = "<group>"; };
+		1DFE038787694F56B3EB91C63D85CEE1 /* UIImageView+GGWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GGWebCache.m"; sourceTree = "<group>"; };
+		1E8A69C065C8664A6BA677D9FCEA9B7D /* GGUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGUIKit.release.xcconfig; sourceTree = "<group>"; };
+		1F31ED866437236B3FB30C9981FA41C8 /* GGUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		1F6D580B793C4102E75C269F30B1477F /* UIViewController+Create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Create.h"; sourceTree = "<group>"; };
+		201EB854F1B555B930F6B9A782360251 /* UIButton+ActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+ActivityIndicatorView.h"; sourceTree = "<group>"; };
+		224941FA6BE6CCB6B4B9F3B773E49704 /* UIViewController+Create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Create.m"; sourceTree = "<group>"; };
+		22C6CD711B42C5C7725FBBCBCEE7F666 /* GGGlobals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGGlobals.h; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		26F6BF5E7D193D166C926BF90E335F24 /* Pods-GGUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2DAF48529F67493D19021C1327790F40 /* GGTapLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGTapLabel.m; sourceTree = "<group>"; };
+		309B10636BCD3DF7ECC23A37F74F68FC /* GGCenterCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGCenterCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		30C99EBBB7F42F293786D5BDF3198F35 /* NSString+RemoveEmoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveEmoji.h"; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		354B267364C011360432C1BBC0EF4ECD /* UIStoryboard+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Addition.m"; sourceTree = "<group>"; };
+		36234D6F75CDA75873605556BA11B121 /* Pods-GGUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37A72FBF275448A4BA53B16ED9AD619B /* GGMapHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGMapHelper.h; sourceTree = "<group>"; };
+		3902485D3AEC4BC881AD1CDE1A5D7A27 /* GGUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGUtil.m; sourceTree = "<group>"; };
+		3CF4AB41E88A9F7C317BB357A9477C3E /* GGStickyHeaderFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGStickyHeaderFlowLayout.m; sourceTree = "<group>"; };
+		3D3798E15633381E8932668E8C2E9882 /* NSString+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3FFBA9D5367A3C1D9BD7D5A940F4B055 /* UITextField+TextLengthLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TextLengthLimit.m"; sourceTree = "<group>"; };
+		41C72217C92518BFFA9DCD8693D21EEC /* UIView+GGProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GGProgressHUD.h"; sourceTree = "<group>"; };
+		4305B28EA6DC683D0FEDC1C826EF7D3B /* GGUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGUtil.h; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		45B972C6B04232A17FA5857E3F2B5DEA /* UICollectionViewCell+GGNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+GGNib.m"; sourceTree = "<group>"; };
+		48CE13ED256A76AC832B267CD3ADFF3F /* GGUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GGUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		48D495EA6DCD140C00E79DBDE7769CA0 /* UIStoryboard+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Addition.h"; sourceTree = "<group>"; };
+		49130B069D30EEE7E8897E7B71A8C883 /* Pods-GGUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		49FE47853F0EC1AB6AE25D602D8234C9 /* GGUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGUIKit-umbrella.h"; sourceTree = "<group>"; };
+		4C18051B5DAD93DB9AFE713B63AD8D7B /* Pods-GGUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4EB6216F24763D7CD6A14C883342741A /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		524FE97765CD66B118FED126EED2866F /* UICollectionReusableView+GGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionReusableView+GGUtils.h"; sourceTree = "<group>"; };
+		52850D77A2832FCE5F4EB1E2FB267CB0 /* Pods-GGUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGUIKit_Example"; path = Pods_GGUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		557C13576E77E856F003CE7592CB495C /* Pods-GGUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5733E46F7ECF3BE2C667A93F5527A1F3 /* UITextView+TextLengthLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+TextLengthLimit.h"; sourceTree = "<group>"; };
+		58F6973EC7B130B82443FD6D228BCBAA /* GGTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGTableViewModel.m; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		610A4FD966F092B66BE780B7A168C6CD /* BottomSafeAreaHeightConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BottomSafeAreaHeightConstraint.m; sourceTree = "<group>"; };
+		6300B5779E2E66DC15994081F26CC4AC /* GGUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGUIKit-Info.plist"; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		66E53C7C1F378179338A4B5B92B467E9 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6AF0F7B120E7F30924A6C0FE1C2E9F0A /* UICollectionViewCell+GGNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+GGNib.h"; sourceTree = "<group>"; };
+		6C6E4483FC2B4892BDCEB17B1BB0FC50 /* GGUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGUI.h; sourceTree = "<group>"; };
+		6C86C25A5660BA321FF1A16F5E0CA67C /* Pods-GGUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6E332D34331A3FD5B76BEABCE944CB7E /* UIView+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		704E16CE016BB68EF0070019740E9B66 /* GGStringTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGStringTool.h; sourceTree = "<group>"; };
+		70CDF0D590ACA28EC7D95DC15C087B35 /* YYCache+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache+Addition.h"; sourceTree = "<group>"; };
+		71FB0B4E8477C9A86C17FFAE59BD0BCD /* GGImagePickerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGImagePickerHelper.h; sourceTree = "<group>"; };
+		7222D487D94640B2E22BAC5E14C33833 /* Pods-GGUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		72CDF2BE6883AA466DA1434ADF8F4401 /* UIViewController+GGNavItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GGNavItem.h"; sourceTree = "<group>"; };
+		7465CA2A21AB2D7DA85BFBF34523FCB6 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		79E8300AF868836C67C274778C14EABE /* UITextField+TextLengthLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+TextLengthLimit.h"; sourceTree = "<group>"; };
+		79F8EA95A2B483F4B6E2D9B18A3CB6DB /* UIViewController+GGTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GGTool.m"; sourceTree = "<group>"; };
+		7A7D5D1F3E5CC3D140072279B41DDCAA /* NSBundle+AllBundles.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+AllBundles.m"; sourceTree = "<group>"; };
+		7B672EC9676917E7C45993CF8642956F /* GGViewModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGViewModelProtocol.h; sourceTree = "<group>"; };
+		7C8286D15D8AD6C74F062AF769C8AAF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7CCB087333E61B5C903C9E023F14E9C4 /* Pods-GGUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		80CB7A65841BD4E93812781FA07406DB /* GGDeviceIdentifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGDeviceIdentifier.m; sourceTree = "<group>"; };
+		837B3D1AEC60F447C3220A26849361A6 /* YYCache+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache+Addition.m"; sourceTree = "<group>"; };
+		8711227F7DD7AC62C49E63DB49E81FE5 /* GGMapHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGMapHelper.m; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8985081F154EE0894A228DD5A6A0C192 /* UIView+GGSetViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GGSetViewModel.m"; sourceTree = "<group>"; };
+		89CEE0F146FDC35AD9F40B7353162056 /* UIView+LayoutConstraintHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutConstraintHelper.h"; sourceTree = "<group>"; };
+		8D6AFCA6492A001B4A944325D7E45894 /* GGCountdownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGCountdownButton.h; sourceTree = "<group>"; };
+		8DE13A2753529CB82BBE722CC5D6F142 /* YYFPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8E9518528DAC54BDF08A428573607E94 /* UIView+LayoutConstraintHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutConstraintHelper.m"; sourceTree = "<group>"; };
+		90613846F7CDB8BA21E5348C6E836F07 /* BottomSafeAreaHeightConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BottomSafeAreaHeightConstraint.h; sourceTree = "<group>"; };
+		928C96E5F82A2C55E23B514FDBFA6E0F /* UIDevice+GGAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+GGAddition.m"; sourceTree = "<group>"; };
+		934AB696681E3FDDAB5EF35F2B45FCB1 /* Pods-GGUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		93C8C6B5B9BEDFD4A7E8290D6BF7917B /* UIImage+GGTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+GGTool.h"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		9488EA485A8C8F74B4E9225ECFD5E8C4 /* GGImagePickerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGImagePickerHelper.m; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		96A9894F975F1858627C4AF1FD6396D9 /* UIView+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		96DDE072F5A404F999338AD02864DBD4 /* UIImageView+GGWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GGWebCache.h"; sourceTree = "<group>"; };
+		98D6A0730BC43A0D5F721AC1BBA354BE /* Pods-GGUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08D4E226B9938CDF470A85FAC4F68AE /* GGCenterCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGCenterCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		A260823D34EF0FD41C8B3D56EF0F3921 /* Pods-GGUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A3B6913803281BEA8005BEA78A8212F3 /* GGLayoutButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGLayoutButton.m; sourceTree = "<group>"; };
+		A43CE2F90E662D6925D26634E599F224 /* UIView+GGProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GGProgressHUD.m"; sourceTree = "<group>"; };
+		A47CCD3D011450D0C31E369FC91C64B9 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		A55C4A1F4D0364ADAD76F0F29069AF15 /* GGUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGUIKit-prefix.pch"; sourceTree = "<group>"; };
+		A78629FE0B35BA25BF317A98E0E9921A /* UILabel+FormattedText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FormattedText.m"; sourceTree = "<group>"; };
+		A7E376044D8EE7D123F4EFDA376D9BAA /* UIButton+ActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ActivityIndicatorView.m"; sourceTree = "<group>"; };
+		A86EC28F2EC5E435A61A1E66DEA5C83F /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		AA32F42B06CE15D7BFCE858C100C4D76 /* NSString+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		ABEFF4169EE99A1DF18FB34586A24CD1 /* UIViewController+GGTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GGTool.h"; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AF30439CA86222D058C4501A16265EAB /* GGUISetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGUISetting.h; sourceTree = "<group>"; };
+		B0258D677B56AC35C02B8A3A55364813 /* GGStringTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGStringTool.m; sourceTree = "<group>"; };
+		B24EC7F44A52898F12B7744E30F204DA /* GGNumberTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGNumberTool.m; sourceTree = "<group>"; };
+		B4575541B6B70D6F6ECF5340BFF19BAA /* GGStickyHeaderFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGStickyHeaderFlowLayout.h; sourceTree = "<group>"; };
+		B4AA8BA7DFBA2919A0F260D8501B405C /* Pods-GGUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		B50859B9694750122949E724090307A7 /* GGDatePickerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGDatePickerHelper.h; sourceTree = "<group>"; };
+		B51ED1DBDA00F29ED777E34F74E76552 /* Pods-GGUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6CA42078DCF2F9F823D72BE531F714A /* YYFPSLabel+Initial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYFPSLabel+Initial.h"; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		BA411C6A32EAEA2EB6F46D30F6B6B2DD /* UIColor+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		BAF49F703182CF3EDE1AC59EB6BAB3C8 /* GGViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGViewModel.h; sourceTree = "<group>"; };
+		BC292596F0D092D5E0AFAF5A371B0868 /* Pods-GGUIKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGUIKit_Tests"; path = Pods_GGUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27524EBC3312D2EF3B180F787BFBF87 /* GGViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGViewModel.m; sourceTree = "<group>"; };
+		C29C7A5571C247DBD2B64B94AD404E22 /* NSBundle+AllBundles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+AllBundles.h"; sourceTree = "<group>"; };
+		CA052CEF7E94310BABA0464D26E54132 /* YYFPSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		CA6CCE582870E2AF6000B39C0861F6B6 /* NavHeightConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NavHeightConstraint.h; sourceTree = "<group>"; };
+		CAA027D45541E142EB8CD61547FBEDE4 /* GGCountdownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGCountdownButton.m; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D15DEE7FAC41D52F70175098172F5D8A /* GGTapLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGTapLabel.h; sourceTree = "<group>"; };
+		D16365502FCA0823DE22938A6EB8F420 /* Pods-GGUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D214C6C6812030DE4D58E8892D90F086 /* UIImage+GGTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GGTool.m"; sourceTree = "<group>"; };
+		D68C7C2A2576F2E8CF4722220D8CB887 /* GGUISetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGUISetting.m; sourceTree = "<group>"; };
+		D7F8A29810B2AC8A54E5E77C71477A8E /* Pods-GGUIKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGUIKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D98A33D92F905003A9DD1EEBA233D0D1 /* GGNumberTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGNumberTool.h; sourceTree = "<group>"; };
+		DE1CF9C30CCBCA915DA83D496AE127A6 /* NavHeightConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NavHeightConstraint.m; sourceTree = "<group>"; };
+		DE8DA7EA43AD174C061B6C9810D4C47C /* UICollectionReusableView+GGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionReusableView+GGUtils.m"; sourceTree = "<group>"; };
+		E0A2DF2402ACC8820B4CE8C708B2C10A /* Pods-GGUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		E319D6D7EAE24291EF410DD19E7EF2E8 /* UITextView+TextLengthLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TextLengthLimit.m"; sourceTree = "<group>"; };
+		E3CF8E73BDD0136DE5FD6B889B875811 /* YYFPSLabel+Initial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYFPSLabel+Initial.m"; sourceTree = "<group>"; };
+		E42B77B1F69E4EC5BA40952B197FC328 /* NSString+RemoveEmoji.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+RemoveEmoji.m"; sourceTree = "<group>"; };
+		E5D42BD949055FDFFA4499CB61CFA566 /* UIDevice+GGAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+GGAddition.h"; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E6E8E4329C3C1A8CEA1DFE81C7C345C3 /* GGUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGUIKit.modulemap; sourceTree = "<group>"; };
+		E90BD5332FB98404AB1BA545E29FC58A /* UIColor+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		EB425133A8EA054918A7661E95927F7E /* UIViewController+GGNavItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GGNavItem.m"; sourceTree = "<group>"; };
+		EC8DE7A6A20AF29476950FCAB22EC736 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		ECD66B79D376C5CFF47B4C9D813947B8 /* GGLayoutButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGLayoutButton.h; sourceTree = "<group>"; };
+		F3D9B133D06C8E2B74EB9DAEC33F5BC8 /* Pods-GGUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		F6EB9477E6B598BC2D3717EFD85BA21A /* GGSizeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGSizeTool.h; sourceTree = "<group>"; };
+		FA1A920F43459106760BC0CEAC6C9840 /* UITableViewCell+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Utils.h"; sourceTree = "<group>"; };
+		FAFD97DCCDA56884698A0C6CE922B245 /* GGUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGUIKit; path = GGUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC40E754B8495D98E3C229FE567070DC /* GGUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGUIKit-dummy.m"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FFDE31937DCC7B4E4F58A22A4F52E773 /* GGDatePickerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGDatePickerHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB1A4A1C6C4774C3AF30E9B789280C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5770E561752A8D5D66881A54EDB611 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720893BE4E881E32074CD92F94D63186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6C58CAF569654DFF82367F39DEE2DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A900BF8984D6DE643081048F2200BB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D366EC55C2D33A6C33E5E30B3C9CB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0490180D994EED957EB0B29264FE0D09 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FBFEB7B7537AB1EEA32BEAEDC0362E /* Pods-GGUIKit_Example */,
+				5A4196C45A6F773142274A4EC3397AFA /* Pods-GGUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		08FBFEB7B7537AB1EEA32BEAEDC0362E /* Pods-GGUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				109E2F557F29CDEDF9370C1DA63A84EE /* Pods-GGUIKit_Example.modulemap */,
+				26F6BF5E7D193D166C926BF90E335F24 /* Pods-GGUIKit_Example-acknowledgements.markdown */,
+				B51ED1DBDA00F29ED777E34F74E76552 /* Pods-GGUIKit_Example-acknowledgements.plist */,
+				7CCB087333E61B5C903C9E023F14E9C4 /* Pods-GGUIKit_Example-dummy.m */,
+				49130B069D30EEE7E8897E7B71A8C883 /* Pods-GGUIKit_Example-frameworks.sh */,
+				4C18051B5DAD93DB9AFE713B63AD8D7B /* Pods-GGUIKit_Example-Info.plist */,
+				B4AA8BA7DFBA2919A0F260D8501B405C /* Pods-GGUIKit_Example-umbrella.h */,
+				7222D487D94640B2E22BAC5E14C33833 /* Pods-GGUIKit_Example.debug.xcconfig */,
+				A260823D34EF0FD41C8B3D56EF0F3921 /* Pods-GGUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-GGUIKit_Example";
+			path = "Target Support Files/Pods-GGUIKit_Example";
+			sourceTree = "<group>";
+		};
+		2302C1CA5DCA27781278F096E36E1292 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				5733E46F7ECF3BE2C667A93F5527A1F3 /* UITextView+TextLengthLimit.h */,
+				E319D6D7EAE24291EF410DD19E7EF2E8 /* UITextView+TextLengthLimit.m */,
+			);
+			name = UITextView;
+			path = GGUIKit/Classes/UITextView;
+			sourceTree = "<group>";
+		};
+		2456889A65B1EDA2A7B25A7BBD1C7003 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				B50859B9694750122949E724090307A7 /* GGDatePickerHelper.h */,
+				FFDE31937DCC7B4E4F58A22A4F52E773 /* GGDatePickerHelper.m */,
+				71FB0B4E8477C9A86C17FFAE59BD0BCD /* GGImagePickerHelper.h */,
+				9488EA485A8C8F74B4E9225ECFD5E8C4 /* GGImagePickerHelper.m */,
+			);
+			name = Picker;
+			path = GGUIKit/Classes/Picker;
+			sourceTree = "<group>";
+		};
+		2AE633691ACF7CCCC937116C9F2E3AA0 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				17510BF9380EC4A2A5036691841AE1C3 /* GGDeviceIdentifier.h */,
+				80CB7A65841BD4E93812781FA07406DB /* GGDeviceIdentifier.m */,
+				E5D42BD949055FDFFA4499CB61CFA566 /* UIDevice+GGAddition.h */,
+				928C96E5F82A2C55E23B514FDBFA6E0F /* UIDevice+GGAddition.m */,
+			);
+			name = UIDevice;
+			path = GGUIKit/Classes/UIDevice;
+			sourceTree = "<group>";
+		};
+		44D913479D4A11DD49B5E5FAF39FF061 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8DE13A2753529CB82BBE722CC5D6F142 /* YYFPSLabel.h */,
+				CA052CEF7E94310BABA0464D26E54132 /* YYFPSLabel.m */,
+				B6CA42078DCF2F9F823D72BE531F714A /* YYFPSLabel+Initial.h */,
+				E3CF8E73BDD0136DE5FD6B889B875811 /* YYFPSLabel+Initial.m */,
+			);
+			name = YYFPSLabel;
+			path = GGUIKit/Classes/YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		493443EB50BFB58B79BBD72087B4E52C /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				93C8C6B5B9BEDFD4A7E8290D6BF7917B /* UIImage+GGTool.h */,
+				D214C6C6812030DE4D58E8892D90F086 /* UIImage+GGTool.m */,
+			);
+			name = UIImage;
+			path = GGUIKit/Classes/UIImage;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		51B1A5F6C51848658209EB5CEE724772 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				D98A33D92F905003A9DD1EEBA233D0D1 /* GGNumberTool.h */,
+				B24EC7F44A52898F12B7744E30F204DA /* GGNumberTool.m */,
+			);
+			name = Number;
+			path = GGUIKit/Classes/Number;
+			sourceTree = "<group>";
+		};
+		52004BFBC8B5A10AD25F899A7171FBE9 /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EC8DE7A6A20AF29476950FCAB22EC736 /* UIActionSheet+Blocks.h */,
+				4EB6216F24763D7CD6A14C883342741A /* UIActionSheet+Blocks.m */,
+				A47CCD3D011450D0C31E369FC91C64B9 /* UIAlertView+Blocks.h */,
+				7465CA2A21AB2D7DA85BFBF34523FCB6 /* UIAlertView+Blocks.m */,
+			);
+			name = PopMenu;
+			path = GGUIKit/Classes/PopMenu;
+			sourceTree = "<group>";
+		};
+		5248281640C7342AC11842206AC9013A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F353E1C7419C04C0F8D89E25229AB14 /* GGUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A4196C45A6F773142274A4EC3397AFA /* Pods-GGUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				934AB696681E3FDDAB5EF35F2B45FCB1 /* Pods-GGUIKit_Tests.modulemap */,
+				36234D6F75CDA75873605556BA11B121 /* Pods-GGUIKit_Tests-acknowledgements.markdown */,
+				D16365502FCA0823DE22938A6EB8F420 /* Pods-GGUIKit_Tests-acknowledgements.plist */,
+				F3D9B133D06C8E2B74EB9DAEC33F5BC8 /* Pods-GGUIKit_Tests-dummy.m */,
+				D7F8A29810B2AC8A54E5E77C71477A8E /* Pods-GGUIKit_Tests-frameworks.sh */,
+				E0A2DF2402ACC8820B4CE8C708B2C10A /* Pods-GGUIKit_Tests-Info.plist */,
+				98D6A0730BC43A0D5F721AC1BBA354BE /* Pods-GGUIKit_Tests-umbrella.h */,
+				557C13576E77E856F003CE7592CB495C /* Pods-GGUIKit_Tests.debug.xcconfig */,
+				6C86C25A5660BA321FF1A16F5E0CA67C /* Pods-GGUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-GGUIKit_Tests";
+			path = "Target Support Files/Pods-GGUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		6F81C65480C4FF5309587B705D99F54C /* SizeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB9477E6B598BC2D3717EFD85BA21A /* GGSizeTool.h */,
+				15079F6E5D21574BDD16FC095D6633C3 /* GGSizeTool.m */,
+			);
+			name = SizeHelper;
+			path = GGUIKit/Classes/SizeHelper;
+			sourceTree = "<group>";
+		};
+		76C736B15A541EDF96D4E97972D84884 /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				70CDF0D590ACA28EC7D95DC15C087B35 /* YYCache+Addition.h */,
+				837B3D1AEC60F447C3220A26849361A6 /* YYCache+Addition.m */,
+			);
+			name = YYCache;
+			path = GGUIKit/Classes/YYCache;
+			sourceTree = "<group>";
+		};
+		7F353E1C7419C04C0F8D89E25229AB14 /* GGUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CDD00A2F5AC6953E90F69C80B0DEDF47 /* AutoLayout */,
+				C8E9DC208FF21B1D4533CE40515F3616 /* Bundle */,
+				F28676DE251283D1896373DF6F403177 /* General */,
+				51B1A5F6C51848658209EB5CEE724772 /* Number */,
+				2456889A65B1EDA2A7B25A7BBD1C7003 /* Picker */,
+				F316E51063967D289CE39E9B10541AC7 /* Pod */,
+				52004BFBC8B5A10AD25F899A7171FBE9 /* PopMenu */,
+				6F81C65480C4FF5309587B705D99F54C /* SizeHelper */,
+				9E88C921D6962FFAEFB844F9E8811071 /* String */,
+				D8939D5CB6B29477999A040537F3E1C8 /* Support Files */,
+				EAC57CC9B76774F2A2AFF0B8C943BBB2 /* System */,
+				C6CF84F14FBB76CA4DDA95494EC30541 /* UIButton */,
+				D44CFB9D61B8C85C218FBD9E97AC62F1 /* UICollectionView */,
+				DA2608E5EB3D15F99DB11D9829E1247B /* UIColor */,
+				2AE633691ACF7CCCC937116C9F2E3AA0 /* UIDevice */,
+				493443EB50BFB58B79BBD72087B4E52C /* UIImage */,
+				ADBB078DF191FDAA0A11744185EC9B93 /* UIImageView */,
+				BD510C1BB31D6F0D619B0BF4C9B0B895 /* UILabel */,
+				B1FA459875DCC273E10AF786A4D5EC51 /* UITableView */,
+				A5AA17C23E8EDB6F8E0355E10DAA9264 /* UITextField */,
+				2302C1CA5DCA27781278F096E36E1292 /* UITextView */,
+				E84C1FEE8729889D824AE70D31DE273C /* UIView */,
+				FEE21F1DD5C12E66568E105E86855D07 /* UIViewController */,
+				D15B2AD40F063E43D5D0F56BD6EF395D /* ViewModel */,
+				76C736B15A541EDF96D4E97972D84884 /* YYCache */,
+				44D913479D4A11DD49B5E5FAF39FF061 /* YYFPSLabel */,
+			);
+			name = GGUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9E88C921D6962FFAEFB844F9E8811071 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				704E16CE016BB68EF0070019740E9B66 /* GGStringTool.h */,
+				B0258D677B56AC35C02B8A3A55364813 /* GGStringTool.m */,
+				3D3798E15633381E8932668E8C2E9882 /* NSString+Addition.h */,
+				AA32F42B06CE15D7BFCE858C100C4D76 /* NSString+Addition.m */,
+				30C99EBBB7F42F293786D5BDF3198F35 /* NSString+RemoveEmoji.h */,
+				E42B77B1F69E4EC5BA40952B197FC328 /* NSString+RemoveEmoji.m */,
+			);
+			name = String;
+			path = GGUIKit/Classes/String;
+			sourceTree = "<group>";
+		};
+		A5AA17C23E8EDB6F8E0355E10DAA9264 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				79E8300AF868836C67C274778C14EABE /* UITextField+TextLengthLimit.h */,
+				3FFBA9D5367A3C1D9BD7D5A940F4B055 /* UITextField+TextLengthLimit.m */,
+			);
+			name = UITextField;
+			path = GGUIKit/Classes/UITextField;
+			sourceTree = "<group>";
+		};
+		ADBB078DF191FDAA0A11744185EC9B93 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				96DDE072F5A404F999338AD02864DBD4 /* UIImageView+GGWebCache.h */,
+				1DFE038787694F56B3EB91C63D85CEE1 /* UIImageView+GGWebCache.m */,
+			);
+			name = UIImageView;
+			path = GGUIKit/Classes/UIImageView;
+			sourceTree = "<group>";
+		};
+		B1FA459875DCC273E10AF786A4D5EC51 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				1DF58BE26A8C04CF69A81AB55A1D8364 /* UITableView+GGAdd.h */,
+				1AAB452AFA8602CF7877FD1DAAA141D4 /* UITableView+GGAdd.m */,
+				FA1A920F43459106760BC0CEAC6C9840 /* UITableViewCell+Utils.h */,
+				183C55622C96C3893765A20C69BC92FB /* UITableViewCell+Utils.m */,
+			);
+			name = UITableView;
+			path = GGUIKit/Classes/UITableView;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		BD510C1BB31D6F0D619B0BF4C9B0B895 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				D15DEE7FAC41D52F70175098172F5D8A /* GGTapLabel.h */,
+				2DAF48529F67493D19021C1327790F40 /* GGTapLabel.m */,
+				1AC975E3C56FD4D563151C638CA74C36 /* UILabel+FormattedText.h */,
+				A78629FE0B35BA25BF317A98E0E9921A /* UILabel+FormattedText.m */,
+			);
+			name = UILabel;
+			path = GGUIKit/Classes/UILabel;
+			sourceTree = "<group>";
+		};
+		C0CC42A0668A43D9082D1F7C1D53FE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				FAFD97DCCDA56884698A0C6CE922B245 /* GGUIKit */,
+				52850D77A2832FCE5F4EB1E2FB267CB0 /* Pods-GGUIKit_Example */,
+				BC292596F0D092D5E0AFAF5A371B0868 /* Pods-GGUIKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6CF84F14FBB76CA4DDA95494EC30541 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				8D6AFCA6492A001B4A944325D7E45894 /* GGCountdownButton.h */,
+				CAA027D45541E142EB8CD61547FBEDE4 /* GGCountdownButton.m */,
+				ECD66B79D376C5CFF47B4C9D813947B8 /* GGLayoutButton.h */,
+				A3B6913803281BEA8005BEA78A8212F3 /* GGLayoutButton.m */,
+				201EB854F1B555B930F6B9A782360251 /* UIButton+ActivityIndicatorView.h */,
+				A7E376044D8EE7D123F4EFDA376D9BAA /* UIButton+ActivityIndicatorView.m */,
+			);
+			name = UIButton;
+			path = GGUIKit/Classes/UIButton;
+			sourceTree = "<group>";
+		};
+		C8E9DC208FF21B1D4533CE40515F3616 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				C29C7A5571C247DBD2B64B94AD404E22 /* NSBundle+AllBundles.h */,
+				7A7D5D1F3E5CC3D140072279B41DDCAA /* NSBundle+AllBundles.m */,
+				48D495EA6DCD140C00E79DBDE7769CA0 /* UIStoryboard+Addition.h */,
+				354B267364C011360432C1BBC0EF4ECD /* UIStoryboard+Addition.m */,
+			);
+			name = Bundle;
+			path = GGUIKit/Classes/Bundle;
+			sourceTree = "<group>";
+		};
+		CDD00A2F5AC6953E90F69C80B0DEDF47 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				90613846F7CDB8BA21E5348C6E836F07 /* BottomSafeAreaHeightConstraint.h */,
+				610A4FD966F092B66BE780B7A168C6CD /* BottomSafeAreaHeightConstraint.m */,
+				CA6CCE582870E2AF6000B39C0861F6B6 /* NavHeightConstraint.h */,
+				DE1CF9C30CCBCA915DA83D496AE127A6 /* NavHeightConstraint.m */,
+				89CEE0F146FDC35AD9F40B7353162056 /* UIView+LayoutConstraintHelper.h */,
+				8E9518528DAC54BDF08A428573607E94 /* UIView+LayoutConstraintHelper.m */,
+			);
+			name = AutoLayout;
+			path = GGUIKit/Classes/AutoLayout;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5248281640C7342AC11842206AC9013A /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				C0CC42A0668A43D9082D1F7C1D53FE27 /* Products */,
+				0490180D994EED957EB0B29264FE0D09 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D15B2AD40F063E43D5D0F56BD6EF395D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D7E900BEC820CF5C41E97F03C5089A4 /* GGTableViewModel.h */,
+				58F6973EC7B130B82443FD6D228BCBAA /* GGTableViewModel.m */,
+				BAF49F703182CF3EDE1AC59EB6BAB3C8 /* GGViewModel.h */,
+				C27524EBC3312D2EF3B180F787BFBF87 /* GGViewModel.m */,
+				7B672EC9676917E7C45993CF8642956F /* GGViewModelProtocol.h */,
+				0AEE2FCB1D9CB5C2B5978A6A74139198 /* UIView+GGSetViewModel.h */,
+				8985081F154EE0894A228DD5A6A0C192 /* UIView+GGSetViewModel.m */,
+			);
+			name = ViewModel;
+			path = GGUIKit/Classes/ViewModel;
+			sourceTree = "<group>";
+		};
+		D44CFB9D61B8C85C218FBD9E97AC62F1 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				309B10636BCD3DF7ECC23A37F74F68FC /* GGCenterCollectionViewFlowLayout.h */,
+				A08D4E226B9938CDF470A85FAC4F68AE /* GGCenterCollectionViewFlowLayout.m */,
+				B4575541B6B70D6F6ECF5340BFF19BAA /* GGStickyHeaderFlowLayout.h */,
+				3CF4AB41E88A9F7C317BB357A9477C3E /* GGStickyHeaderFlowLayout.m */,
+				524FE97765CD66B118FED126EED2866F /* UICollectionReusableView+GGUtils.h */,
+				DE8DA7EA43AD174C061B6C9810D4C47C /* UICollectionReusableView+GGUtils.m */,
+				6AF0F7B120E7F30924A6C0FE1C2E9F0A /* UICollectionViewCell+GGNib.h */,
+				45B972C6B04232A17FA5857E3F2B5DEA /* UICollectionViewCell+GGNib.m */,
+				A86EC28F2EC5E435A61A1E66DEA5C83F /* UICollectionViewLeftAlignedLayout.h */,
+				66E53C7C1F378179338A4B5B92B467E9 /* UICollectionViewLeftAlignedLayout.m */,
+			);
+			name = UICollectionView;
+			path = GGUIKit/Classes/UICollectionView;
+			sourceTree = "<group>";
+		};
+		D8939D5CB6B29477999A040537F3E1C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E8E4329C3C1A8CEA1DFE81C7C345C3 /* GGUIKit.modulemap */,
+				FC40E754B8495D98E3C229FE567070DC /* GGUIKit-dummy.m */,
+				6300B5779E2E66DC15994081F26CC4AC /* GGUIKit-Info.plist */,
+				A55C4A1F4D0364ADAD76F0F29069AF15 /* GGUIKit-prefix.pch */,
+				49FE47853F0EC1AB6AE25D602D8234C9 /* GGUIKit-umbrella.h */,
+				1F31ED866437236B3FB30C9981FA41C8 /* GGUIKit.debug.xcconfig */,
+				1E8A69C065C8664A6BA677D9FCEA9B7D /* GGUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGUIKit";
+			sourceTree = "<group>";
+		};
+		DA2608E5EB3D15F99DB11D9829E1247B /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				BA411C6A32EAEA2EB6F46D30F6B6B2DD /* UIColor+Addition.h */,
+				E90BD5332FB98404AB1BA545E29FC58A /* UIColor+Addition.m */,
+			);
+			name = UIColor;
+			path = GGUIKit/Classes/UIColor;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E84C1FEE8729889D824AE70D31DE273C /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0C79CFB836EC9D3A1D988D95BF8E9386 /* UIView+Create.h */,
+				0070828D35302355FE7009E36706A63D /* UIView+Create.m */,
+				41C72217C92518BFFA9DCD8693D21EEC /* UIView+GGProgressHUD.h */,
+				A43CE2F90E662D6925D26634E599F224 /* UIView+GGProgressHUD.m */,
+				96A9894F975F1858627C4AF1FD6396D9 /* UIView+Utils.h */,
+				6E332D34331A3FD5B76BEABCE944CB7E /* UIView+Utils.m */,
+			);
+			name = UIView;
+			path = GGUIKit/Classes/UIView;
+			sourceTree = "<group>";
+		};
+		EAC57CC9B76774F2A2AFF0B8C943BBB2 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				37A72FBF275448A4BA53B16ED9AD619B /* GGMapHelper.h */,
+				8711227F7DD7AC62C49E63DB49E81FE5 /* GGMapHelper.m */,
+				19B57D5DC3834E3BA37B99D299D2C06F /* GGSavePhotoTool.h */,
+				0898C2F0FFFE70B490479075AF73C9FD /* GGSavePhotoTool.m */,
+				4305B28EA6DC683D0FEDC1C826EF7D3B /* GGUtil.h */,
+				3902485D3AEC4BC881AD1CDE1A5D7A27 /* GGUtil.m */,
+			);
+			name = System;
+			path = GGUIKit/Classes/System;
+			sourceTree = "<group>";
+		};
+		F28676DE251283D1896373DF6F403177 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				22C6CD711B42C5C7725FBBCBCEE7F666 /* GGGlobals.h */,
+				6C6E4483FC2B4892BDCEB17B1BB0FC50 /* GGUI.h */,
+				AF30439CA86222D058C4501A16265EAB /* GGUISetting.h */,
+				D68C7C2A2576F2E8CF4722220D8CB887 /* GGUISetting.m */,
+			);
+			name = General;
+			path = GGUIKit/Classes/General;
+			sourceTree = "<group>";
+		};
+		F316E51063967D289CE39E9B10541AC7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				48CE13ED256A76AC832B267CD3ADFF3F /* GGUIKit.podspec */,
+				7C8286D15D8AD6C74F062AF769C8AAF7 /* LICENSE */,
+				0831FC2AB402DC2BFF57AE6D5EBEFD2E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FEE21F1DD5C12E66568E105E86855D07 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F6D580B793C4102E75C269F30B1477F /* UIViewController+Create.h */,
+				224941FA6BE6CCB6B4B9F3B773E49704 /* UIViewController+Create.m */,
+				72CDF2BE6883AA466DA1434ADF8F4401 /* UIViewController+GGNavItem.h */,
+				EB425133A8EA054918A7661E95927F7E /* UIViewController+GGNavItem.m */,
+				ABEFF4169EE99A1DF18FB34586A24CD1 /* UIViewController+GGTool.h */,
+				79F8EA95A2B483F4B6E2D9B18A3CB6DB /* UIViewController+GGTool.m */,
+			);
+			name = UIViewController;
+			path = GGUIKit/Classes/UIViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24732E2F42C3496C4597DF47E778C939 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707577B58FB423E07DD0D8AD1E94F049 /* BottomSafeAreaHeightConstraint.h in Headers */,
+				A9277BC0AF78AAA7AA80ED9821433334 /* GGCenterCollectionViewFlowLayout.h in Headers */,
+				B158620EF1C4D836BD0853630078686E /* GGCountdownButton.h in Headers */,
+				CDD8E8E8487D739076C8BD8107BFCD26 /* GGDatePickerHelper.h in Headers */,
+				17F84B620EEC0456E3CF3C1AFF82B856 /* GGDeviceIdentifier.h in Headers */,
+				7745F0C073C35DF4E73AC488541E2ACA /* GGGlobals.h in Headers */,
+				65EC8FCE381DA9F77EEDFD9C9221FC16 /* GGImagePickerHelper.h in Headers */,
+				289EE7874D98D141C6B0D93A1EF6DF8D /* GGLayoutButton.h in Headers */,
+				6898A57A3DE2B7AA337BA125C78459D7 /* GGMapHelper.h in Headers */,
+				45B906A073CBEEEF4C3A85367D521ADA /* GGNumberTool.h in Headers */,
+				F2CA0050F04F8ECE53F973E7EB7B8BFC /* GGSavePhotoTool.h in Headers */,
+				CB5061F5DDDCB91A669573977A0E03D1 /* GGSizeTool.h in Headers */,
+				0D12CE452165156E5A4706034995CC3C /* GGStickyHeaderFlowLayout.h in Headers */,
+				1658F074558E6C5345F3A35F4B2DD7A0 /* GGStringTool.h in Headers */,
+				62B0AF6023E7C32FCC5CB084886C7698 /* GGTableViewModel.h in Headers */,
+				6BD89EA051587B7058F5A2A242CCBF3E /* GGTapLabel.h in Headers */,
+				842088F5C8E3C3068061C2A0BAA3F732 /* GGUI.h in Headers */,
+				791DB89B622982B5CA6062416B37E149 /* GGUIKit-umbrella.h in Headers */,
+				CF6C7D2D56513099E849F427ED65E196 /* GGUISetting.h in Headers */,
+				033DF1406466FEB73ABADE16AF8658F0 /* GGUtil.h in Headers */,
+				617B51B5342FAED7B978CDA17C4BA2F1 /* GGViewModel.h in Headers */,
+				CDA3066C36DD2EBE07CDB6D8E10839ED /* GGViewModelProtocol.h in Headers */,
+				C40068EA5BEA0FA4C4D1687F853C10C5 /* NavHeightConstraint.h in Headers */,
+				537C9E2B34DDB911A8180554B65E6993 /* NSBundle+AllBundles.h in Headers */,
+				B99677356ACE207D594303E347EBADC7 /* NSString+Addition.h in Headers */,
+				79F7E4AEA7D9B7000DC7586FF41AA1B8 /* NSString+RemoveEmoji.h in Headers */,
+				C20A3D40D92DC5E30DEF1CDFEE29A934 /* UIActionSheet+Blocks.h in Headers */,
+				35FE4075976EDF8FCE06C5813EF93720 /* UIAlertView+Blocks.h in Headers */,
+				30354B8A0262DE8C8E3EDFE9F12E6345 /* UIButton+ActivityIndicatorView.h in Headers */,
+				E4E16BDB40E667B8900ADF34FEC661E5 /* UICollectionReusableView+GGUtils.h in Headers */,
+				71B168FC95041234660143D4468AD2CA /* UICollectionViewCell+GGNib.h in Headers */,
+				D76D5B7E49505DF66CF2DFEB552BB334 /* UICollectionViewLeftAlignedLayout.h in Headers */,
+				9C2E3AFE49C5D4F438B685D7D3F7097F /* UIColor+Addition.h in Headers */,
+				387CF8D5B4DBD75A83EE0F0E720DA2F4 /* UIDevice+GGAddition.h in Headers */,
+				F86CEB7D96A4E5ECA2F56ED827754E21 /* UIImage+GGTool.h in Headers */,
+				77E7B9A3A0B9FE0052E73443377F3438 /* UIImageView+GGWebCache.h in Headers */,
+				D392D1DF912DCA72A81FD59ACBFA1A30 /* UILabel+FormattedText.h in Headers */,
+				03ED89630B668DC01D680B2AB88099DC /* UIStoryboard+Addition.h in Headers */,
+				C98C91272450894E9995D02A0F45A4A8 /* UITableView+GGAdd.h in Headers */,
+				17B4FD90131496BA71D41AF2920DE4D5 /* UITableViewCell+Utils.h in Headers */,
+				F3A9A009167570E3CA462B50EC63B822 /* UITextField+TextLengthLimit.h in Headers */,
+				526A26F06B48BF4878B61E2E02B20E60 /* UITextView+TextLengthLimit.h in Headers */,
+				A93D47301A38F390A72F406979B32D32 /* UIView+Create.h in Headers */,
+				7CAB6B42A782467047EB86440B87B911 /* UIView+GGProgressHUD.h in Headers */,
+				21F44A32EA4543D97191DE9DACCB3CC7 /* UIView+GGSetViewModel.h in Headers */,
+				F1A9FCA048DA8EDA85A8598212F0BA61 /* UIView+LayoutConstraintHelper.h in Headers */,
+				577D4C635F68A02C79CFAB4526F18941 /* UIView+Utils.h in Headers */,
+				00CAB34FDAA4EC403956566BE73B0A85 /* UIViewController+Create.h in Headers */,
+				C8080E8A7A17B5F86A1F1564F1D0E39C /* UIViewController+GGNavItem.h in Headers */,
+				3BCEC29BBD15C9C26AA05A23E6B8BC55 /* UIViewController+GGTool.h in Headers */,
+				2115B61A02E79FCA826E2AC4D185BE47 /* YYCache+Addition.h in Headers */,
+				CA87BE43F99EED2E4731DE6996F59BC7 /* YYFPSLabel.h in Headers */,
+				9D85BD9BC517B3BB0948074E0C3BC1D3 /* YYFPSLabel+Initial.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAC8C54E3B0782F6CEEC8F9902686D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336A1CEECE92554D56F96839367C9F0D /* Pods-GGUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBB2A7162864A22060EB1072AD4923B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9DBBA8A4B26791796C588EB58308FE /* Pods-GGUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DEE251E16A43C6DD5A3FC368DAD7C56 /* GGUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166372341E56561692D55CF8D80628F7 /* Build configuration list for PBXNativeTarget "GGUIKit" */;
+			buildPhases = (
+				24732E2F42C3496C4597DF47E778C939 /* Headers */,
+				79A19ECBE040516D0AC2EDEF07D1BA80 /* Sources */,
+				A900BF8984D6DE643081048F2200BB62 /* Frameworks */,
+				FEE3BADEB5161E6F184CA7400787188C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGUIKit;
+			productName = GGUIKit;
+			productReference = FAFD97DCCDA56884698A0C6CE922B245 /* GGUIKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		6196F6D6F319CDA26BE3E706BE985F4D /* Pods-GGUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E8B59F5365F9237A94D59451F2B1F6 /* Build configuration list for PBXNativeTarget "Pods-GGUIKit_Tests" */;
+			buildPhases = (
+				4CAC8C54E3B0782F6CEEC8F9902686D4 /* Headers */,
+				03A141077683E22BF2A0DDDEA7A942A0 /* Sources */,
+				720893BE4E881E32074CD92F94D63186 /* Frameworks */,
+				3CECAF30D8E7D98CD9ADA2D4D436BD25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F67B75D1FA5BBDA99451E299418500 /* PBXTargetDependency */,
+				ADAD24735F6F6E491445DB8A27EDBF13 /* PBXTargetDependency */,
+			);
+			name = "Pods-GGUIKit_Tests";
+			productName = Pods_GGUIKit_Tests;
+			productReference = BC292596F0D092D5E0AFAF5A371B0868 /* Pods-GGUIKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+		E46ABE1F32E875174282541D80E14D5A /* Pods-GGUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E787C6084E1E1925CF84C621649739E /* Build configuration list for PBXNativeTarget "Pods-GGUIKit_Example" */;
+			buildPhases = (
+				9DBB2A7162864A22060EB1072AD4923B /* Headers */,
+				126161360C24DF425D786DF439AA6172 /* Sources */,
+				4EB1A4A1C6C4774C3AF30E9B789280C0 /* Frameworks */,
+				D331DE2701A14B6187534C81EACBB55A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C0E7D97C4A68F65C2CB3D911D59AE38 /* PBXTargetDependency */,
+			);
+			name = "Pods-GGUIKit_Example";
+			productName = Pods_GGUIKit_Example;
+			productReference = 52850D77A2832FCE5F4EB1E2FB267CB0 /* Pods-GGUIKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C0CC42A0668A43D9082D1F7C1D53FE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				3DEE251E16A43C6DD5A3FC368DAD7C56 /* GGUIKit */,
+				E46ABE1F32E875174282541D80E14D5A /* Pods-GGUIKit_Example */,
+				6196F6D6F319CDA26BE3E706BE985F4D /* Pods-GGUIKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CECAF30D8E7D98CD9ADA2D4D436BD25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D331DE2701A14B6187534C81EACBB55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE3BADEB5161E6F184CA7400787188C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A141077683E22BF2A0DDDEA7A942A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB89C92F40BAEDE8B0A19DE9E77F3EA /* Pods-GGUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126161360C24DF425D786DF439AA6172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D594ED477C0041E0E10E5CAB4547FBEB /* Pods-GGUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A19ECBE040516D0AC2EDEF07D1BA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0B7822564AD1A53C53D3250508DDE1 /* BottomSafeAreaHeightConstraint.m in Sources */,
+				8601F42EA205E5EC113542D44B921126 /* GGCenterCollectionViewFlowLayout.m in Sources */,
+				1BE98943D8DAF1595593AC2B84D0AFD0 /* GGCountdownButton.m in Sources */,
+				4D566F0543E59AE99E48A94B06228963 /* GGDatePickerHelper.m in Sources */,
+				0C93ED509BF6B628B71EEB50B8855944 /* GGDeviceIdentifier.m in Sources */,
+				F5CCD8A6B526A263CBD814673B068CCA /* GGImagePickerHelper.m in Sources */,
+				771B1791B9F922C1B8429B5F841593A7 /* GGLayoutButton.m in Sources */,
+				5DF8B7E77EC16E4AB4E7759B8F3FFE7C /* GGMapHelper.m in Sources */,
+				3C16A46B8843ED9DB817D6C6E39C522F /* GGNumberTool.m in Sources */,
+				A9E15A332C09BBA31031EA137F2EAE71 /* GGSavePhotoTool.m in Sources */,
+				24BBC11129DF33357A86A1643770E7E2 /* GGSizeTool.m in Sources */,
+				EA16BABE1E5C4D22B7B82A461D22EE1A /* GGStickyHeaderFlowLayout.m in Sources */,
+				E43797D222F858F5C80E48570262CC6D /* GGStringTool.m in Sources */,
+				92259945724EAA7FB8A906C804D0019D /* GGTableViewModel.m in Sources */,
+				8E4CA482D87B1DA2579689E6F1F8A2BB /* GGTapLabel.m in Sources */,
+				7B9335C9475428080C78798268C64055 /* GGUIKit-dummy.m in Sources */,
+				A428D7761977F3577AF43F966957CBCB /* GGUISetting.m in Sources */,
+				3EF38B27735760B8D04CD0A750BB06EB /* GGUtil.m in Sources */,
+				F3D7501B4733967072893C1C56490DFF /* GGViewModel.m in Sources */,
+				E4116F39184B5FBB147503CC5E8F9A77 /* NavHeightConstraint.m in Sources */,
+				3E41D857E6A582ACA6CCAB20B8857C19 /* NSBundle+AllBundles.m in Sources */,
+				651ED435147092C793996D733405E25D /* NSString+Addition.m in Sources */,
+				3248A00FEA115556FBF89185B5A6D3BA /* NSString+RemoveEmoji.m in Sources */,
+				82E5F5FB0DF79F866EF24F6D9779FE5E /* UIActionSheet+Blocks.m in Sources */,
+				4BBFA191D90278CD6052AA8E79132AFA /* UIAlertView+Blocks.m in Sources */,
+				003F0AE2CD25A18DF8A9ACF2BF90F86E /* UIButton+ActivityIndicatorView.m in Sources */,
+				CCC343923C2BBDE7B0101A7345F309D2 /* UICollectionReusableView+GGUtils.m in Sources */,
+				72FEC8EC692684768332E1C39EFD7039 /* UICollectionViewCell+GGNib.m in Sources */,
+				BB0B1EA30433A4DF3F5BC9A3E5BBD3F7 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				5FA5883A02E0213482A03CAED9C7C379 /* UIColor+Addition.m in Sources */,
+				F3D68933C3E443DD60CF39A8CFA28307 /* UIDevice+GGAddition.m in Sources */,
+				6EEB3B74366F3C6D42C5B89249F75A3F /* UIImage+GGTool.m in Sources */,
+				8C4DBD701AB7155B5473DA0811E035BF /* UIImageView+GGWebCache.m in Sources */,
+				944B7453D7AACF8F8432A3A6E85B1A74 /* UILabel+FormattedText.m in Sources */,
+				2F61197F875CA0745B5BC785CBD2A918 /* UIStoryboard+Addition.m in Sources */,
+				0CF00035521E5EFCD6EEAFF4588E2877 /* UITableView+GGAdd.m in Sources */,
+				122D297718A1283D08B47BC1BE257FA4 /* UITableViewCell+Utils.m in Sources */,
+				AC28B5866AE079847A0C77328453957D /* UITextField+TextLengthLimit.m in Sources */,
+				6D68BB545B38E354EEF7C34A2EC1C235 /* UITextView+TextLengthLimit.m in Sources */,
+				81B6DC3FEBF17106534F81C39B9C18E3 /* UIView+Create.m in Sources */,
+				14517A74E54941E578979EB71F442A13 /* UIView+GGProgressHUD.m in Sources */,
+				54CBFC5283382525EE9EE1270E03800E /* UIView+GGSetViewModel.m in Sources */,
+				7A6F61E950DF175B0D05CF033CBDC984 /* UIView+LayoutConstraintHelper.m in Sources */,
+				2F61DB690926ECA7C2CD10BB764DD5C0 /* UIView+Utils.m in Sources */,
+				DCDC83E9B9E4362F2DBC1594B5F0CC4B /* UIViewController+Create.m in Sources */,
+				EC1E66F34069888747D531365C7A2034 /* UIViewController+GGNavItem.m in Sources */,
+				5DC1142086270F8C9DE457EECA986F25 /* UIViewController+GGTool.m in Sources */,
+				1A563CCEB269B4D70A3A221881BAC7AB /* YYCache+Addition.m in Sources */,
+				E379976A6403DF7F5370C524B9C59D57 /* YYFPSLabel.m in Sources */,
+				BA4D1D7F2EDF5F3D8E6E8B31292C7F11 /* YYFPSLabel+Initial.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C0E7D97C4A68F65C2CB3D911D59AE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGUIKit;
+			target = 3DEE251E16A43C6DD5A3FC368DAD7C56 /* GGUIKit */;
+			targetProxy = 04315B65CBFAA0285E0EC1F0C854F21C /* PBXContainerItemProxy */;
+		};
+		ADAD24735F6F6E491445DB8A27EDBF13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GGUIKit_Example";
+			target = E46ABE1F32E875174282541D80E14D5A /* Pods-GGUIKit_Example */;
+			targetProxy = BFCC9411B817BC576628E928FA66B669 /* PBXContainerItemProxy */;
+		};
+		E2F67B75D1FA5BBDA99451E299418500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 3632A693A0E8D22E065136C437871F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		059B451EDBFAB005B3F9BD362DA7D607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C86C25A5660BA321FF1A16F5E0CA67C /* Pods-GGUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGUIKit_Tests/Pods-GGUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGUIKit_Tests/Pods-GGUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B1B39C7E8C49AC9C8539CE262C82549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557C13576E77E856F003CE7592CB495C /* Pods-GGUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGUIKit_Tests/Pods-GGUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGUIKit_Tests/Pods-GGUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0FF5CED307D50E20A68A5A90AC4D715F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8A69C065C8664A6BA677D9FCEA9B7D /* GGUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGUIKit/GGUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGUIKit/GGUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGUIKit/GGUIKit.modulemap";
+				PRODUCT_MODULE_NAME = GGUIKit;
+				PRODUCT_NAME = GGUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1197E21C50E2143FE6381C67093B7835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F31ED866437236B3FB30C9981FA41C8 /* GGUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGUIKit/GGUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGUIKit/GGUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGUIKit/GGUIKit.modulemap";
+				PRODUCT_MODULE_NAME = GGUIKit;
+				PRODUCT_NAME = GGUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17EF7488E17643960F14030EE0DA1EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7222D487D94640B2E22BAC5E14C33833 /* Pods-GGUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGUIKit_Example/Pods-GGUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGUIKit_Example/Pods-GGUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9FDF372DA24E9A8E162FCE7A8857034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A260823D34EF0FD41C8B3D56EF0F3921 /* Pods-GGUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGUIKit_Example/Pods-GGUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGUIKit_Example/Pods-GGUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E8B59F5365F9237A94D59451F2B1F6 /* Build configuration list for PBXNativeTarget "Pods-GGUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1B39C7E8C49AC9C8539CE262C82549 /* Debug */,
+				059B451EDBFAB005B3F9BD362DA7D607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166372341E56561692D55CF8D80628F7 /* Build configuration list for PBXNativeTarget "GGUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1197E21C50E2143FE6381C67093B7835 /* Debug */,
+				0FF5CED307D50E20A68A5A90AC4D715F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E787C6084E1E1925CF84C621649739E /* Build configuration list for PBXNativeTarget "Pods-GGUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EF7488E17643960F14030EE0DA1EEF /* Debug */,
+				A9FDF372DA24E9A8E162FCE7A8857034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
